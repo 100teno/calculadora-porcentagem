@@ -67,12 +67,23 @@ button {
     color: #fbc55f;
 }
 
+.input-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 @media (max-width: 750px) {
+    
     .box input {
-        display: block;
+        width: 25%;
+        margin-bottom: 10px;
+        justify-content: center;
     }
 
-    .input-text {
+    .inputfield {
         text-align: center;
         margin:10px auto;
     }
